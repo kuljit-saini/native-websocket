@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let ws = new WebSocket("ws://localhost:8000");
+      //the path where we want to listen to the traffic created on the server at the port 8000
+      //the protocol for this ws which is used for listening to the web socket server
+
+      console.log(ws);
+    </script>
+  </body>
+</html>
